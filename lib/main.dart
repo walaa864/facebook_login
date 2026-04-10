@@ -68,6 +68,7 @@ class FacebookApp_Ligin extends StatelessWidget {
                         width: 280,
                         height: 50,
                         child: TextFormField(
+                          obscureText: true,
                           decoration: InputDecoration(
                             hint: Text(
                               'password',
